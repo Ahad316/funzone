@@ -1,0 +1,157 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+   padding: 0px;
+   margin: 0px;
+
+}
+
+/* navbar */
+
+.navbar-scrolled{
+    background-color: #000000;
+    box-shadow: 0 3px 10px rgba( 0, 0, 0, 0.15);
+  }
+  
+  #navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    transition: all 3s;
+    background-color: #000000;
+  }
+  .nav-link{
+    transition: all 0.2s;
+    margin: 0 15px;
+  }
+  .nav-link:hover{
+    text-decoration: underline 2px solid white;
+  }
+  
+  
+  /* Navbar Logo */
+  
+  
+  .image{
+    height: 100px;
+    width: 100px;
+    border-radius: 60%;
+  }
+  
+  /* navbar hover*/
+  
+  .dropdown:hover>.dropdown-menu {
+    display: block;
+  }
+
+
+h1 , h2 {
+    text-align: center;
+	margin: 10px;
+}
+p{
+    padding: 0px 10px;
+    margin:  0px 10px;
+}
+
+p:hover{
+   color: white;
+   background-color: gray;
+
+}
+img{
+	padding: 10px;
+}
+
+img:hover{
+	border: 2px solid gray;
+}
+
+ 
+/* Form styling */
+form {
+	padding: 10px;
+	 border-radius: 8px;
+	 box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	
+ }
+ 
+ label {
+	 display: block;
+	 margin-bottom: 8px;
+ }
+ 
+ input,
+ textarea {
+	 width: 100%;
+	 padding: 8px;
+	 margin-bottom: 16px;
+	 box-sizing: border-box;
+	 border: 1px solid #ccc;
+	 border-radius: 4px;
+ }
+ 
+ input[type="submit"] {
+	 background-color: #4caf50;
+	 color: white;
+	 cursor: pointer;
+ }
+ 
+ input[type="submit"]:hover {
+	 background-color: #45a049;
+ }
+ 
+ .error {
+	 color: red;
+	 font-size: 14px;
+	 margin-top: 4px;
+ }
+ 
+ /* Font and general styling */
+ @import url('https://fonts.googleapis.com/css?family=Roboto:400,500,300,700');
+ 
+ * {
+	 font-family: Roboto;
+	 padding: 0;
+	 margin: 0;
+ }
+ 
+ /* footer */
+
+
+.footer{
+    background: #000000de;
+    color:white;
+    
+    .links{
+      ul {list-style-type: none;}
+      li a{
+        color: white;
+        transition: color .2s;
+        &:hover{
+          text-decoration:none;
+          color:#4180CB;
+          }
+      }
+    }  
+    .about-company{
+      i{font-size: 25px;}
+      a{
+        color:white;
+        transition: color .2s;
+        &:hover{color:#4180CB}
+      }
+    } 
+    .location{
+      i{font-size: 18px;}
+      p a{
+        color: white;
+        transition: color .2s;
+        &:hover{
+          text-decoration:none;
+          color:#4180CB;
+          }
+      }
+    }
+    .copyright p{border-top:1px solid rgba(255,255,255,.1);} 
+  }
+ 

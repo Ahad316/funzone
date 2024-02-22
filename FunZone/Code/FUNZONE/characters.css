@@ -1,0 +1,137 @@
+*{font-family: Georgia, 'Times New Roman', Times, serif;
+padding: 0px;
+margin: 0px;
+}
+
+/* navbar */
+
+.navbar-scrolled{
+    background-color: #000000;
+    box-shadow: 0 3px 10px rgba( 0, 0, 0, 0.15);
+  }
+  
+  #navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    transition: all 3s;
+  }
+  .nav-link{
+    transition: all 0.2s;
+    margin: 0 15px;
+  }
+  .nav-link:hover{
+    text-decoration: underline 2px solid white;
+  }
+  
+  
+  /* Navbar Logo */
+  
+  
+  .image{
+    height: 100px;
+    width: 100px;
+    border-radius: 60%;
+  }
+  
+  /* navbar hover*/
+  
+  .dropdown:hover>.dropdown-menu {
+    display: block;
+  }
+  
+
+
+/* Heading */
+
+.heading{
+    background-color: skyblue;
+    text-align: center;
+   padding: 20px;
+   width: 100%;
+}
+
+/* pic Background */
+
+#background{
+    background-color: lightgray;
+}
+
+/* Text */
+
+#text{
+    font-size: 20px;
+    margin-top: 30px;
+    text-align: center;
+    padding: 50px;
+}
+
+
+/* Pictures */
+
+
+#picture{
+    height: 500px;
+    width: 800px;
+    object-fit: cover;
+    padding: 50px;
+}
+
+/* Animation */
+
+.brighten img {
+    -webkit-filter: brightness(50%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+    }
+    
+    .brighten img:hover {
+    -webkit-filter: brightness(100%);
+    }
+
+/* footer */
+
+
+.footer{
+    background: #000000de;
+    color:white;
+    
+    .links{
+      ul {list-style-type: none;}
+      li a{
+        color: white;
+        transition: color .2s;
+        &:hover{
+          text-decoration:none;
+          color:#4180CB;
+          }
+      }
+    }  
+    .about-company{
+      i{font-size: 25px;}
+      a{
+        color:white;
+        transition: color .2s;
+        &:hover{color:#4180CB}
+      }
+    } 
+    .location{
+      i{font-size: 18px;}
+      p a{
+        color: white;
+        transition: color .2s;
+        &:hover{
+          text-decoration:none;
+          color:#4180CB;
+          }
+      }
+    }
+    .copyright p{border-top:1px solid rgba(255,255,255,.1);} 
+  }
+  
+  
+
+

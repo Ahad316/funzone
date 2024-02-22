@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Storage</title>
+    <style>
+        * {
+            font-family: 'Courier New', Courier, monospace;
+            color: darkslategray;
+        }
+
+
+        form {
+            background-color: rgb(180, 179, 166);
+            width: 40%;
+            margin: 5% 25%;
+            padding: 4%;
+        }
+
+        input {
+            width: 75%;
+            border-radius: 5px;
+            padding: 10px;
+            border : none;
+            margin : 1%;
+        }
+
+        input::placeholder {
+            color: cadetblue;
+            font-weight: bold;
+        }
+
+        button {
+            background-color: darkslategray;
+            padding: 12px;
+            border-radius: 5px;
+            margin-left: 32%;
+            color : white;
+        }
+    </style>
+
+</head>
+
+<body>
+    <form>
+
+        <h2>Login Using localStorage</h2>
+        <input type="email" required id="Email" placeholder="Enter Email..." >
+        <input type="password" required id="pas" placeholder="Enter Password...">
+        <br>
+        <button type="submit"onclick="Login()">LOGIN</button>
+    </form>
+    <script>
+        function Login()
+        {
+            var loginEmail = document.getElementById('email').value;
+            var loginEmail = document.getElementById('pass').value;
+            
+            if(('localStorage' in Window))
+            {
+                var em=localStorage.
+            }
+        }
+        
+    </script>
+
+
+</body>
+
+</html>

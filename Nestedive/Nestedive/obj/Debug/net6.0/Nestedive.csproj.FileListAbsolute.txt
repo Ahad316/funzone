@@ -1,0 +1,14 @@
+C:\Users\asp\source\repos\Nestedive\bin\Debug\net6.0\Nestedive.exe
+C:\Users\asp\source\repos\Nestedive\bin\Debug\net6.0\Nestedive.deps.json
+C:\Users\asp\source\repos\Nestedive\bin\Debug\net6.0\Nestedive.runtimeconfig.json
+C:\Users\asp\source\repos\Nestedive\bin\Debug\net6.0\Nestedive.dll
+C:\Users\asp\source\repos\Nestedive\bin\Debug\net6.0\Nestedive.pdb
+C:\Users\asp\source\repos\Nestedive\obj\Debug\net6.0\Nestedive.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\asp\source\repos\Nestedive\obj\Debug\net6.0\Nestedive.AssemblyInfoInputs.cache
+C:\Users\asp\source\repos\Nestedive\obj\Debug\net6.0\Nestedive.AssemblyInfo.cs
+C:\Users\asp\source\repos\Nestedive\obj\Debug\net6.0\Nestedive.csproj.CoreCompileInputs.cache
+C:\Users\asp\source\repos\Nestedive\obj\Debug\net6.0\Nestedive.dll
+C:\Users\asp\source\repos\Nestedive\obj\Debug\net6.0\refint\Nestedive.dll
+C:\Users\asp\source\repos\Nestedive\obj\Debug\net6.0\Nestedive.pdb
+C:\Users\asp\source\repos\Nestedive\obj\Debug\net6.0\Nestedive.genruntimeconfig.cache
+C:\Users\asp\source\repos\Nestedive\obj\Debug\net6.0\ref\Nestedive.dll

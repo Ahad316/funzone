@@ -1,0 +1,226 @@
+
+/* Body */
+
+
+*{font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 0px; 
+  margin: 0px; 
+}
+
+
+/* navbar */
+
+.navbar-scrolled{
+  background-color: #000000;
+  box-shadow: 0 3px 10px rgba( 0, 0, 0, 0.15);
+}
+
+#navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  transition: all 3s;
+}
+.nav-link{
+  transition: all 0.2s;
+  margin: 0 15px;
+}
+.nav-link:hover{
+  text-decoration: underline 2px solid white;
+}
+
+
+/* Navbar Logo */
+
+
+.image{
+  height: 100px;
+  width: 100px;
+  border-radius: 60%;
+}
+
+/* navbar hover*/
+
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+
+
+/* Heading Animation*/
+
+
+.animate-charcter
+{
+  text-align: center;
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  
+  );
+  background-clip: border-box;
+  background-size: 100% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  font-size: 20px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 100% center;
+  }
+}
+
+/* container */
+
+
+/* image */
+
+
+#image1{
+  transition: background-color 0.3s ease;
+}
+#image1:hover{
+  transition: transform 0.3s ease-in-out;
+  transform: scale(1.1);
+
+}
+
+
+/* text */
+
+
+#text{
+  font-size:20px;
+  margin-top:30px;
+  padding: 30px;
+}
+
+/* Entertainment Images */
+
+.enter{
+  text-align: center;
+  background-color: lightgray;
+  font-size:20px;
+  margin-top:30px;
+  padding: 30px;
+}
+#circle{
+  object-fit: cover;
+  padding: 50px;
+}
+#circle h2{
+  text-align: center;
+  padding: 20px;
+  background-color: rgb(233, 233, 233);
+}
+
+/* image slides */
+
+
+.slide img {
+  height: 800px; 
+  width: 100%;
+  object-fit: cover;
+}
+
+
+/* footer */
+
+
+.footer{
+  background: #000000de;
+  color:white;
+  
+  .links{
+    ul {list-style-type: none;}
+    li a{
+      color: white;
+      transition: color .2s;
+      &:hover{
+        text-decoration:none;
+        color:#4180CB;
+        }
+    }
+  }  
+  .about-company{
+    i{font-size: 25px;}
+    a{
+      color:white;
+      transition: color .2s;
+      &:hover{color:#4180CB}
+    }
+  } 
+  .location{
+    i{font-size: 18px;}
+    p a{
+      color: white;
+      transition: color .2s;
+      &:hover{
+        text-decoration:none;
+        color:#4180CB;
+        }
+    }
+  }
+  .copyright p{border-top:1px solid rgba(255,255,255,.1);} 
+}
+
+
+ /*Read More*/
+
+  
+  .content {
+    max-width: 600px;
+    margin: 20px auto;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  #readMoreBtn {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  #readMoreBtn:hover {
+    background-color: #2980b9;
+    transition: transform 0.3s ease-in-out;
+    transform: scale(0.9);
+  }
+
+
+
+  /* Read More Button2 */
+
+
+
+  .mainContent {
+    max-width: 600px;
+    margin: 20px auto;
+  }
+  
+  .extraContent {
+    display: none;
+  }
+  #readMoreButton {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  #readMoreButton:hover {
+    background-color: #2980b9;
+    transition: transform 0.3s ease-in-out;
+    transform: scale(0.9);
+  }
+  

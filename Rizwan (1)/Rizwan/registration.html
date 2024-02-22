@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Web Storage</title>
+    <style>
+        * {
+            font-family: 'Courier New', Courier, monospace;
+            color: darkslategray;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 7px;
+            background-color: rgb(180, 179, 166);
+            width: 40%;
+            margin-top: 3%;
+            margin-left: 28%;
+            padding: 5%;
+        }
+
+        input {
+            width: 40%;
+            height: 2em;
+            border-radius: 7px;
+            border: none;
+            padding: 5px;
+        }
+
+        button {
+            color: white;
+            padding: 15px;
+            border: none;
+            font-size: larger;
+            background-color: darkslategray;
+        }
+
+        input::placeholder {
+            color: cadetblue;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <form>
+
+        <h1>Local Storage</h1>
+
+        <input type="text" required id="name" placeholder="Enter Name...">
+        <input type="email"required id="mail" placeholder="Enter Email...">
+        <input type="password"required id="pass" placeholder="Enter Password... ">
+        <input type="password"required id="cpass" placeholder="Confirm Password...">
+        <br>
+        <button type="submit" onclick="register()"> Register</button>
+        <button type="submit" onclick="clean()">Clear</button>
+
+    </form>
+     <script>
+
+        function register()
+        {
+          var uname=document .getElementById('name').value;
+          var Email=document .getElementById('mail').value; 
+          var Password=document .getElementById('pass').value;
+          var Confirm_password=document .getElementById('cpass').value;
+
+          if(uname !="" && Email !="" && Password == Confirm_password)
+          {
+            if(('localStorage' in window))
+            {
+                alert('local Storage Availabale..');
+                localStorage.setItem("User_Name",uname);
+                localStorage.setItem("User_email",Email);
+                localStorage.setItem("password",Password);
+            
+            }
+            else
+            {
+                alert('local Storage is not Available');
+            }
+            alert("Successfully Registered..");
+          }
+          else
+          {
+            alert("Fill up the form correctly..");
+          }
+        }
+        function Clean()
+        {
+         localStorage.clean();
+        }
+     </script>
+</body>
+
+</html>

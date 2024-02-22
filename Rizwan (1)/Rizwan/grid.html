@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Document</title>
+    <style>
+        .grid-container
+        {
+            display: grid;
+            background-color: black;
+            width: 700px;   
+            height: 550px;
+            /* by using pixels */
+
+            /* grid-template-columns: 135px 135px 135px; */
+            /* grid-template-rows: 135px 135px 135px; */
+
+            /* by using fr */
+            
+            /* grid-template-columns: 1fr 1fr 1fr; */
+            /* grid-template-rows: 1fr 1fr 1fr */
+
+            /* by using repeat */
+
+            grid-template-columns:  repeat(3,1fr); 
+            grid-template-rows: repeat(3,1fr); 
+
+            column-gap: 10px;
+            row-gap: 10px;
+
+        }
+        .item   
+        {
+            background-color: wheat;
+            width: 130px;
+            height: 130px;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="item">one</div>
+        <div class="item">two</div>
+        <div class="item">three</div>
+        <div class="item">four</div>
+        <div class="item">five</div>
+        <div class="item">six</div>
+        <div class="item">seven</div> 
+        <div class="item">Eight</div>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Document</title>
+    <style>
+        .grid-container
+        {
+            height: 550px ;
+            display: grid ;
+            background-color: black;
+            grid-template-columns: repeat(3,1fr);
+            grid-template-rows: repeat(3,1fr);
+            column-gap: 10px;
+            row-gap: 10px;
+        }
+        .item
+        {
+            background-color: wheat;
+        }
+        #item1
+        {
+          /* it work on grid lines */
+          
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="item"id="item">Header</div>
+        <div class="item"id="item">Menu</div>
+        <div class="item"id="item">Carousel</div>
+        <div class="item"id="item">Main</div>
+        <div class="item"id="item"></div>
+        <div class="item"id="item">Image</div>
+        <div class="item"id="item"></div>
+        <div class="item"id="item"></div>
+        <div class="item"id="item">Extra Link</div>
+        <div class="item"id="item">Footer</div>
+        
+</body>
+</html>

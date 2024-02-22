@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+
+    <title>Boxes</title>
+    <style>
+        * {
+            margin: 0px;
+        }
+
+        html {
+            height: 100vh;
+
+        }
+
+        body {
+            background: linear-gradient(185deg, rgb(31, 31, 75), rgb(202, 126, 126), rgb(105, 52, 52));
+            height: 100%;
+        }
+
+        .flexcontainer {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .box {
+            width: 150px;
+            height: 150px;
+            background: white;
+            margin: 20px;
+            padding: 20px;
+            cursor: pointer;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: rgba(0, 0, 0, 0.333);
+
+
+
+
+        }
+    </style>
+  
+</head>
+
+<body>
+    <div class="flexcontainer">
+
+    <div class="box" onclick=" clickhere()">on click here</div>
+    <div class="box" onmousedown="mousedown()">on mouse down</div>
+    <div class="box" onmouseup="mouseup()">on mouse up</div>
+    <div class="box"  ondblclick="doubleclick()">on double click</div>
+    <div class="box" onmouseup="mousemove()">on mouse move</div>
+    <div class="box" onmouseover="mouseover()">on mouse over</div>
+    <div class="box" onmouseover="mouseout()">on mouse out</div>
+    <div class="box" oncontextmenu="mouseright()">on mouse right</div>
+   
+    </div>
+    <script>
+        function clickhere()
+        {
+            alert("Its on click..");
+        }
+        function mousedown()
+        {
+            alert("Its on mouse down..");
+        }
+        function mouseup()
+        {
+            alert("Its on mouse up..");
+        }
+        function doubleclick()
+        {
+            alert("Its on double click..");
+        }
+        function mousemove()
+        {
+            alert("Its on mouse move..");
+        }
+        function mouseover()
+        {
+            alert("Its on mouse over..");
+        }
+        function mouseout()
+        {
+            alert("Its on mouse out..");
+        }
+        function mouseright()
+        {
+            alert("Its on mouse right..");
+        }
+      </script>
+</body>
+
+</html>
